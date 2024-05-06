@@ -7,10 +7,10 @@ st.markdown("""---""")
 
 
 df = pd.read_csv('5.5_viz_dataset.csv')
-df_main_main = pd.read_csv('./main_actor_cross.csv', index_col='Unnamed: 0')
+df_main_main = pd.read_csv('main_actor_cross.csv', index_col='Unnamed: 0')
 df_main_sub = pd.read_csv('main_sub.csv', index_col='Unnamed: 0')
 
-df_main_main_see = pd.read_csv('./main_actor_cross_see.csv', index_col='Unnamed: 0')
+df_main_main_see = pd.read_csv('main_actor_cross_see.csv', index_col='Unnamed: 0')
 df_main_sub_see = pd.read_csv('main_sub_see.csv', index_col='Unnamed: 0')
 
 
